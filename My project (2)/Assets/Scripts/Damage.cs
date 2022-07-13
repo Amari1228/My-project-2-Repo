@@ -6,7 +6,7 @@ public class Damage : MonoBehaviour
 {
     #region Variables
     public int damage;
-    public UnitType targetType;
+    public UnitTypes targetType;
     #endregion
 
     public void DealDamage(GameObject target)
@@ -18,13 +18,13 @@ public class Damage : MonoBehaviour
     {
         switch (targetType)
         {
-            case UnitType.Enemy:
+            case UnitTypes.Enemy:
                 if (target.CompareTag("Enemy"))
                 {
                     DealDamage(target.gameObject);
                 }
                 break;
-            case UnitType.Player:
+            case UnitTypes.Player:
                 if (target.CompareTag("Player"))
                 {
                     DealDamage(target.gameObject);

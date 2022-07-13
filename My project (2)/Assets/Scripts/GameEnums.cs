@@ -1,4 +1,4 @@
-YOUR GameEnums are based on whatever ability types & projectiles you have implemented within your game 
+//YOUR GameEnums are based on whatever ability types & projectiles you have implemented within your game 
  
 public enum MovementPattern
 {
@@ -12,4 +12,12 @@ public enum UnitTypes
    Player,
    Enemy,
    Obstacle,
+}
+// The code above (7-11) is to tell the code what exactly can we apply damage too
+ 
+public enum AbilityTypes
+{
+   Boomerang,
+   GunAbility,
+   ZigzagAbility,
 }
