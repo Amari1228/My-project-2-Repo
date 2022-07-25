@@ -9,8 +9,14 @@ public class PlayerControls : MonoBehaviour
     private float xInput;
     private float zInput;
     public CharacterController playerController;
+
+
+    public GameObject[] abilities;
+    public bool stackAbilities = true;
+
     private Vector3 moveDirection;
     #endregion
+    
     #region Text Variables
     private int pickUpCount;
     #endregion

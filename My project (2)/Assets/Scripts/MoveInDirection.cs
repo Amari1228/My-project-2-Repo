@@ -19,7 +19,7 @@ public class MoveInDirection : MonoBehaviour
             case MovementPattern.NormalForward:
                 moveDirection = Vector3.forward;
                 break;
- case MovementPattern.BoomerangForward:
+            case MovementPattern.BoomerangForward:
                 //Coroutine is a function within a function. A caller
                 StartCoroutine(BoomerangForwardRoutine());
                 break;
