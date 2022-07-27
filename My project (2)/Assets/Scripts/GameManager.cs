@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     public void setCountText(int count)
     {
         countText.text = count.ToString();
-        if (count == 6)
+        if (count == 16)
         {
             winTextObject.SetActive(true);
         }
